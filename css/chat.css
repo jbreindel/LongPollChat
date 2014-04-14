@@ -1,0 +1,63 @@
+#chat_thread table {
+    margin-top:10px;
+    border:1px solid #aaa;
+    border-bottom:2px solid #aaa;
+}
+
+#chat_thread table th, #chat_notes table th {
+    text-align:left;
+    border-bottom:1px solid #aaa;
+    font-size:10pt;
+    padding:5px;
+}
+
+#chat_thread table th.tmeta {
+    font-weight:bold;
+    font-size:10pt;
+    color:#FFF;
+    text-align:right;
+    padding-right:15px;
+}
+
+#chat_thread table th span {
+    font-weight:bold;
+    font-size:10pt;
+    color:#FFF;
+    padding-left:0px;
+    margin: -10px auto auto auto;
+}
+
+#chat_thread .message th {
+	color:#FFF;
+    background: rgb(158, 186, 41);
+}
+
+#chat_thread .response th {
+	color:#FFF;
+    background:#E59319;
+}
+
+#chat_thread .note th {
+	color:#FFF;
+    background: #E59319;
+}
+
+#chat_thread table td, #ticket_notes table td {
+    padding:5px;
+}
+
+#chat_thread .info, #ticket_notes .info {
+    padding:5px;
+    background:#F4FAFF;
+    height:16px;
+    line-height:16px;
+}
+
+#chats table {
+	border-collapse: collapse; margin-left: auto; margin-right: auto;
+}
+
+.pWithLineBreaks{
+	white-space: pre-line;
+	margin-top: 0;
+}
