@@ -5,6 +5,7 @@ A long polling chat server and client. Please note that there are some other pro
 
 1. jQuery       http://jquery.com/
 2. moment.js    http://momentjs.com/
+3. titlealert   https://github.com/heyman/jquery-titlealert
 
 Written within the osTicket system:
 
