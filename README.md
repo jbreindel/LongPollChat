@@ -11,3 +11,4 @@ Written within the osTicket system:
 
 1. osTicket     http://osticket.com/
 
+Please note you need to provide a user class in chat.inc.php. I have it in the code as $user->getName().
