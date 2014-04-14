@@ -79,11 +79,11 @@ class Chat {
 				chat_id=".db_input($id);
 		
 		// IF the query fails
-		if (!($res = db_query($loadQuery)) || !db_num_rows($res))
+		if (!($res = mysql_query($loadQuery)) || !mysql_num_rows($res))
 			return false;
 		
 		// get an array representation
-		$array = db_assoc_array($res);
+		$array = mysql_fetch_array($res);
 		
 		// get the associative array
 		$this->loadFromArray($array[0]);
@@ -191,7 +191,7 @@ class Chat {
 		}
 
 		// perform the query
-		$array = db_assoc_array(db_query($query));
+		$array = mysql_fetch_array(mysql_query($query));
 		
 		// IF the array is not empty
 		if(!empty($array)){
