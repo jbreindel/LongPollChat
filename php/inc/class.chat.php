@@ -8,9 +8,6 @@
  * DESRIPTION:
  * 	A simple chat object that represents a chat message.
  *
- *
- * University At Buffalo, Web Services 2013
- *
  **********************************************************************/
 
 class Chat {
