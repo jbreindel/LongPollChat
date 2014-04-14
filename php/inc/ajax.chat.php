@@ -8,8 +8,6 @@
  * DESRIPTION:
  * 	Ajax chat controller.
  *
- * University At Buffalo, Web Services 2014
- *
  **********************************************************************/
 
 if (!defined('INCLUDE_DIR'))
